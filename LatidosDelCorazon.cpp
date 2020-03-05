@@ -39,6 +39,6 @@ int LatidosDelCorazon::getLatidosSegMax(){
 
 void LatidosDelCorazon::calcularRangoLatidos(){
     this->LatidosMax = 220- this->Edad;
-    this->LatidosSegMin = LatidosMax * 0.50;
-    this->LatidosSegMax= LatidosMax * 0.85;
+    this->LatidosSegMin = this->LatidosMax * 0.50;
+    this->LatidosSegMax= this->LatidosMax * 0.85;
 }
